@@ -8,6 +8,7 @@ class ErrorBoundry extends Component {
 		}
 	}
 
+	//there is no equivalent hook for componentDidCatch yet
 	componentDidCatch(error, info) {
 		this.setState({hasError: true});
 	}
